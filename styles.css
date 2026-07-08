@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E8EB;
+    font-size: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: auto;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quotetext {
+    font-size: 25px;
+    font-weight: 300;
+    color: #606264;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.quotetextbold {
+    align-self: flex-end;
+    font-weight: 510;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin: 50px;
+    padding-top: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 35px;
+    gap: 50px;
+    border-radius: 8px;
+}
+
+.signup {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordies {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.wordiess {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.two {
+    color: white;
+    border-color: white;
+    background: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: none;
+    border: 2px solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: small;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #1F2937;
+
+
+}
+
+.logoandstuff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E8EB;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    color: #b6b8ba;
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.restofthestuff {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.lol {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.textone {
+    font-size: 40px;
+    color: #E5E7EB;
+    font-weight: 900;
+}
+
+.texttwo {
+    color: #E5E8EB;
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.one {
+    width: 75px;
+    border-radius: 6px;
+    color: #E5E8EB;
+    background-color: #3882F6;
+    padding: 3px;
+    border: 1px solid;
+    border-color: #1F2937;
+}
+
+.placeholder {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    background-color: #606264;
+    color: white;
+    font-size: small;
+}
