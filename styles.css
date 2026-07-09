@@ -101,7 +101,6 @@ body {
     padding-left: 150px;
     background-color: #1F2937;
 
-
 }
 
 .logoandstuff {
@@ -169,4 +168,46 @@ body {
     background-color: #606264;
     color: white;
     font-size: small;
+}
+
+.RandomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.boxboldtext{
+    font-size: larger;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Thebox {
+    width: 85px;
+    height: 85px;
+    border: 3px solid;
+    border-color: #3882F6;
+    border-radius: 6px;
+}
+
+.boxtext {
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+    width: 85px;
+    padding-bottom: 50px;
+    padding-top: 5px;
 }
